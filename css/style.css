@@ -3,9 +3,9 @@
     --fuenteHeading:  'PT sans', sans-serif;
     --fuenteParrafos:  'Open sans', sans-serif;
 
-    --primario:  #784D3C  ;
-    --negro: #000;
-    --blanco: #FFF;
+    --primario:  #7a7a7a  ;
+    --amarillo: rgb(0, 0, 0);
+    --blanco: rgb(255, 255, 255);
 
 }
 
@@ -92,21 +92,39 @@ img{
 
 /* header */
 .webp .header{
-    background-image: url(/img/banner.webp);
+    background-image: url(/img/Decal\ Markers2.jpg);
 }
 .no-webp .header{
-    background-image: url(/img/banner.jpg);
+    background-image: url(/img/Decal\ Markers2.jpg);
 }
 
 .header{
     height: 50rem;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
+}
+.center-header__texto{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+
 }
 
 .header__texto {
     margin: 5rem 0 0 0;
+    width: 50%;
+    background-color: #2e2b2bbd;
+    padding: 4rem;
+    border-radius: 15px;
+    margin: 1cm auto;
+    height: 8cm;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 .navbar{
     flex-direction: column;
@@ -323,7 +341,7 @@ p{
     .form{
         display:grid;
         grid-template-columns: 0.5fr 5fr;
-        margin: -8rem auto 0 ;
+        margin: -7rem auto 0 ;
         background-color:#fff;
         width:90%;
         padding:3rem;
