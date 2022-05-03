@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="header__texto center">
-            <h2 class="no-margin"> Alguna Pregunta o Duda </h2>
+            <h2 class="no-margin"> ¿Alguna Pregunta o Duda? </h2>
             <p class="no-margin">Te esperamos para tener el gusto de asesorarte </p>
         </div>
     </header> 
@@ -43,18 +43,16 @@
     
     <main class="container contact">
 
-        <img src="/img/contacto.jpg" alt="">
-    
-        <form  class="form " action="">
-            <label class="form__label"  for="">Nombre </label>
-            <input class="form__input"  type="text">
-            <label class="form__label"  for="">Correo </label>
-            <input class="form__input"  type="text">
-            <label class="form__label"  for="">Cuentanos como te podemos ayudar </label>
-            <textarea class="form__textarea"  name="" id="" cols="30" rows="10"></textarea>
-            
-            <input type="button" value="Sent" class=" btn form__btn">
-        </form>
+        <img src="/img/pexels-javon-swaby-2783837.jpg" alt="">
+    <form class="form" action="https://formsubmit.co/jhoseba1@gmail.com" method="POST" />
+        <label class="form__label"  class="form__label" name="nombre" for="">Nombre </label>
+        <input class="form__input"  type="text" name="name" required>
+        <label class="form__label" class="form__label" name="email" for="">Correo </label>
+        <input class="form__input" type="email" name="email" required>
+        <label class="form__label" for="">Cuentanos como te podemos ayudar </label>
+        <textarea  class="form__textarea"   name="message" id="" cols="30" rows="10"></textarea>
+        <button  class=" btn form__btn" type="submit">Send</button>
+    </form>
 
     </main>
 
